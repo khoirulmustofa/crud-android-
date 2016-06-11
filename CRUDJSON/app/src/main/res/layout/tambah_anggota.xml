@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <!-- Label Nama -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Nama Anggota"
+        android:textSize="17dip" />
+
+    <!-- Input Nama -->
+    <EditText
+        android:id="@+id/inputNama"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:singleLine="true" />
+
+
+    <!-- Label Alamat -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:text="Alamat"
+        android:textSize="17dip" />
+
+    <!-- Input alamat -->
+    <EditText
+        android:id="@+id/inputAlamat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:gravity="top"
+        android:lines="4" />
+
+    <!-- Button Tambah Anggota -->
+    <Button
+        android:id="@+id/btnTambahAnggota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Anggota"
+        android:layout_weight="0.24" />
+
+</LinearLayout>

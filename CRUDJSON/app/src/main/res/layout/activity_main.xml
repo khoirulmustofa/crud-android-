@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU CRUD JSON"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <!--  Halaman utama Dengan 2 button -->
+    <!--  Button untuk melihat semua anggota -->
+    <Button android:id="@+id/btnLihatAnggota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Lihat Anggota"
+        android:layout_marginTop="25dip"
+        android:layout_weight="0.22" />
+    <!--  Button untuk menambah Data anggota -->
+    <Button android:id="@+id/btnTambahAnggota"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Anggota"
+        android:layout_marginTop="25dip"
+        android:layout_weight="0.22" />
+
+</LinearLayout>

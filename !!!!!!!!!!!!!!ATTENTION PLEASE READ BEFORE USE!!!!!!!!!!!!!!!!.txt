@@ -1,0 +1,9 @@
+1. the folder crud_adro_biasa use for app server.
+   bulid by php.so have to place on htdoc if use xampp.
+2. plase reseting again your connection in file db_connection.
+   matching with your conection
+3. the folder CRUDJSON use for app client
+   bulid by android studio.
+4  you kan open project from android studio.
+5. the DATABASE CRUD ANDROID.sql this for SQL sintack you can copy dan run in sql editor.
+5. enjoy
